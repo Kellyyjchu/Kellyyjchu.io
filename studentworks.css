@@ -1,0 +1,502 @@
+body {
+    display: grid;
+    grid-template-columns:100fr;
+    grid-template-rows: 25vh 150vh 25vh;
+    }
+    
+    header {
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/4;
+        grid-template-columns: 1fr 2fr ;
+        grid-template-rows: 1fr;
+        background-color: #81D2D6;
+        color: #FFFFFF;
+        position: sticky;
+    }
+
+    .logo {
+        height: 100px;
+        max-width: 100px;
+        position: relative;
+        grid-row: 1;
+        grid-column: 1/2;
+      }
+      
+    .logo-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .navbar{
+        display: grid;
+        grid-row: 1;
+        grid-column: 2/3;
+        align-self: center;
+      
+       }
+    
+    h2{
+        font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+    
+    main{
+        display:grid;
+    grid-row: 2;
+    grid-column: 1/4;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 15vh repeat(10, auto 40vh);
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .works-heading {
+        grid-row:1;
+        grid-column: 2/3;
+        text-align: center;
+      }
+    
+    .mosaic-image{
+        grid-row:2;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .mosaic-text{
+        text-align:center;
+        grid-row:3;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .hestia-image{
+        grid-row:4;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hestia-text{
+        text-align: center;
+        grid-row: 5;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .souls-image{
+        grid-row:6;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .souls-text{
+        text-align: center;
+        grid-row: 7;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .persephone-image{
+        grid-row:8;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .persephone-text{
+        text-align: center;
+        grid-row: 9;
+        grid-column:2/3;
+        padding: 20px;
+    }    
+
+    .isis-image{
+        grid-row:10;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isis-text{
+        text-align: center;
+        grid-row: 11;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .brigid-image{
+        grid-row:12;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brigid-text{
+        text-align: center;
+        grid-row: 13;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .pandora-image{
+        grid-row:14;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;   
+    }
+    
+    .pandora-text{
+        text-align: center;
+        grid-row: 15;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .freyja-image{
+    grid-row:16;
+    grid-column:2/3;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .freyja-text{
+        text-align: center;
+        grid-row: 17;
+        grid-column:2/3;
+        padding: 20px;
+    }
+    
+    .dead-image{
+    grid-row:18;
+    grid-column:2/3;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .dead-text{
+        text-align: center;
+        grid-row: 19;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+    .medusa-image{
+        grid-row:20;
+        grid-column:2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .medusa-text{
+        text-align: center;
+        grid-row: 21;
+        grid-column:2/3;
+        padding: 20px;
+    }
+
+
+ 
+    footer{
+       display: grid;
+       grid-row: 3;
+   grid-column: 1/4;
+   position: center;
+   padding: 20px;
+   text-align: left;
+    background-color: #81D2D6;
+    color: #01161E;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+
+    img{
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    a {
+        margin-left: -25px; 
+      }
+
+    .button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        text-decoration: none; 
+        color:#01161E;
+        cursor: pointer;
+
+      }
+      
+      .button:hover {
+        color:#16A6AB; 
+      }
+
+
+
+    @media only screen and (min-width: 768px) {
+        body {
+            display: grid;
+            grid-template-columns:100fr;
+            grid-template-rows: 25vh 150vh 25vh;
+            }
+            
+            header {
+                display: grid;
+                grid-row: 1;
+                grid-column: 1/4;
+                grid-template-columns: 0.5fr 3fr ;
+                grid-template-rows: 1fr;
+                background-color: #81D2D6;
+                color: #FFFFFF;
+                position: sticky;
+            }
+            .logo {
+                height: 100px;
+                max-width: 100px;
+                position: relative;
+                grid-row: 1;
+                grid-column: 1/2;
+              }
+              
+            .logo-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .navbar{
+                display: grid;
+                grid-row: 1;
+                grid-column: 2/3;
+                
+               }
+            
+            h2{
+                font-family: "Platypi", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-size: 44px;
+            }
+            
+            main{
+                display:grid;
+            grid-row: 2;
+            grid-column: 1/4;
+            grid-template-columns:  0.5fr 3fr 0.5fr 3fr 0.5fr;
+            grid-template-rows: 15vh repeat(5, auto 40vh);
+                font-family: "Lato", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .works-heading {
+                grid-row:1;
+                grid-column: 2/5;
+                text-align: center;
+              
+              }
+            
+            .mosaic-image{
+                grid-row:2;
+                grid-column:2/3;
+                justify-content: center;
+                align-items: center;
+              }
+        
+            .mosaic-text{
+                text-align:center;
+                grid-row:3;
+                grid-column:2/3;
+                padding: 20px;
+            }
+        
+            .hestia-image{
+                grid-row:2;
+                grid-column:4/5;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .hestia-text{
+                text-align: center;
+                grid-row: 3;
+                grid-column:4/5;
+                padding: 20px;
+            }
+        
+            .souls-image{
+                grid-row:4;
+                grid-column:2/3;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .souls-text{
+                text-align: center;
+                grid-row: 5;
+                grid-column:2/3;
+                padding: 20px;
+            }
+        
+            .persephone-image{
+                grid-row:4;
+                grid-column:4/5;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .persephone-text{
+                text-align: center;
+                grid-row: 5;
+                grid-column:4/5;
+                padding: 20px;
+            }    
+        
+            .isis-image{
+                grid-row:6;
+                grid-column:2/3;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .isis-text{
+                text-align: center;
+                grid-row: 7;
+                grid-column:2/3;
+                padding: 20px;
+            }
+        
+            .brigid-image{
+                grid-row:6;
+                grid-column:4/5;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .brigid-text{
+                text-align: center;
+                grid-row: 7;
+                grid-column:4/5;
+                padding: 20px;
+            }
+        
+            .pandora-image{
+                grid-row:8;
+                grid-column:2/3;
+                justify-content: center;
+                align-items: center;   
+            }
+            
+            .pandora-text{
+                text-align: center;
+                grid-row: 9;
+                grid-column:2/3;
+                padding: 20px;
+            }
+        
+            .freyja-image{
+            grid-row:8;
+            grid-column:4/5;
+            justify-content: center;
+            align-items: center;
+        
+            }
+        
+            .freyja-text{
+                text-align: center;
+                grid-row: 9;
+                grid-column:4/5;
+                padding: 20px;
+            }
+            
+            .dead-image{
+            grid-row:10;
+            grid-column:2/3;
+            justify-content: center;
+            align-items: center;
+            }
+        
+            .dead-text{
+                text-align: center;
+                grid-row: 11;
+                grid-column:2/3;
+                padding: 20px;
+            }
+        
+            .medusa-image{
+                grid-row:10;
+                grid-column:4/5;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .medusa-text{
+                text-align: center;
+                grid-row: 11;
+                grid-column:4/5;
+                padding: 20px;
+            }
+        
+        
+         
+            footer{
+               display: grid;
+               grid-row: 3;
+           grid-column: 1/4;
+           position: center;
+           padding: 20px;
+           text-align: left;
+            background-color: #81D2D6;
+            color: #01161E;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+            
+     
+        
+            img{
+                width: 100%;
+                position: relative;
+                display: block;
+            }
+            .button {
+                display: inline-block;
+                padding: 1rem 2rem;
+                text-decoration: none; 
+                color:#01161E;
+                cursor: pointer;
+              }
+              
+              .button:hover {
+                color:#16A6AB; 
+              }
+
+              a {
+                margin-left: -25px; 
+              }
+    }

@@ -1,0 +1,171 @@
+/* ! responsive-nav.js 1.0.39 by @arielsalminen */
+
+ /* .nav-collapse ul {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    position: relative;
+    list-style: none;
+    font-family: "Lato", "sans-serif";
+  
+  } */
+/*   
+  .nav-collapse li {
+    width: 100%;
+    display: block;
+   
+    ;
+  } */ */
+  
+  /* .js .nav-collapse {
+    max-height: 0;
+    position: absolute;
+ /* overflow: scroll !important;  */
+  /* top: 30%; Adjust based on your needs */
+  /* left: 20;
+  display: none; */
+  /* background-color:  #81d2d6; */
+  /* z-index: 10000000; Higher than surrounding elements */
+  /* max-height: 200px;
+  overflow-y: auto
+  } */ */
+  
+
+  
+/* 
+  .nav-collapse.opened {
+    max-height: 140px;
+  }
+  
+  .nav-toggle {
+    user-select: none;
+  }
+  
+  @media screen and (min-width: 320) {
+    .js .nav-collapse {
+      position: relative;
+    }
+    .js .nav-collapse.closed {
+      max-height: none;
+    }
+    .nav-toggle {
+      display: none;
+    }
+  } */
+
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+    background-color: #81d2d6;
+    color: #01161e;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    font-family: "Lato", "sans serif";
+    color: #01161e;
+    padding: 2rem;
+}
+
+.navbar-links li:hover {
+    background-color: #c2e9eb;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 6px;
+    width: 100%;
+    background-color: #01161e;
+    border-radius: 10px;
+}
+
+@media (max-width: 760px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+        background-color: #81d2d6;
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
