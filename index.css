@@ -410,7 +410,7 @@ header {
     grid-column: 1/4;
   display: grid;
   grid-template-columns: 10fr 80fr 5fr 80fr 10fr;
-      grid-template-rows: 25vh 80vh 70vh 120vh 100vh 120vh;
+      grid-template-rows: 25vh 80vh 70vh 120vh 100vh 130vh;
   }
 
   h1 {

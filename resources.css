@@ -221,7 +221,7 @@ padding: 20px;
     body {
           display: grid;
           grid-template-columns: 1000fr;
-          grid-template-rows: 18vh 200vh 20vh;
+          grid-template-rows: 19vh 200vh 20vh;
     }
             /* header & nav */
 
@@ -265,7 +265,7 @@ main {
   display: grid;
   grid-row: 2;
   grid-template-columns: 10fr 80fr 5fr 80fr 5fr 80fr 10fr;
-  grid-template-rows: 30vh 60vh 10vh 90vh;
+  grid-template-rows: 30vh 60vh 10vh 100vh;
 }
 
 
